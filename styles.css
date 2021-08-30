@@ -2,19 +2,3 @@
 body {
     font-family: 'Lato', sans-serif;
 }
-
-.container {
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-#header-1 {
-    color: salmon;
-    padding-left: 10rem;
-    padding-right: 10rem;
-    padding-top: 2rem;
-}
-
-.para {
-    color: seagreen;
-}

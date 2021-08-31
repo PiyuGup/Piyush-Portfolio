@@ -5,33 +5,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Piyush Portfolio - About Piyush</title>
     <link href="styles.css" rel="stylesheet" />
 </head>
 
 <body>
     <!-- My portfolio header will have Logo, brand name and Navigational links and menus -->
 
-    <div>
-        <h1 id="header-1"> Piyush's Portfolio</h1>
-        <div>
-            <a href="">About Me</a>
-            <a href="">Blogs</a>
-            <a href="">Projects</a>
-            <a href="">Contact</a>
+    <div class="header-main-top">
+        <h1 id="header-logo"> Piyush's Portfolio</h1>
+        <div class="header-link">
+            <a href="index.html">About Me</a>
+            <a href="/links/blogs.html">Blogs</a>
+            <a href="/links/projects.html">Projects</a>
+            <a href="#Contact">Contact</a>
         </div>
     </div>
 
     <!-- Content of my blog -->
-    <hr>
+    <div class="about-me__row1">
+        <img class="about-me__column1" src="/images/Piyush's.jpg" width="100%" height="100%">
+        <h2> Piyush Gupta</h2>
+        <p class="about-me__column2">
 
-    <div>
-        <img src="/images/Piyush's.jpg">
-        <h2>@AboutMe</h2>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a consequat ligula. Ut et viverra dui. Fusce ac magna sit amet felis tristique convallis. Duis placerat non enim vel mollis. Quisque at sagittis nisl, at semper lectus. Duis sed dapibus enim,
-            eu eleifend mi. Aliquam nec felis consequat, consequat arcu et, vehicula odio. Nulla quis hendrerit nunc. Integer placerat ligula ut magna venenatis, eu iaculis est dignissim. Mauris vitae metus pharetra, gravida dui vestibulum, imperdiet
-            dui. Vestibulum porta lacinia dignissim. Suspendisse dictum quam orci, facilisis fermentum eros vulputate non. Sed viverra eget metus ac condimentum.
         </p>
     </div>
 
@@ -51,18 +47,21 @@
 
     <footer>
         <p>Piyush Gupta </p>
-        <p><strong>Contact Me</strong></p>
+        <p id="Contact"><strong>Contact Me</strong></p>
         <ul>
             <li>
-                <a href="mailto:piyushgpt0016@gmail.com">Email</a></li>
+                <a href="mailto:piyushgpt0016@gmail.com" target="_blank">Email</a></li>
             <li>
-                <a href="https://github.com/PiyuGup"></a>GitHub</li>
+                <a href="https://github.com/PiyuGup" target="_blank"></a>GitHub</li>
             <li>
-                <a href="https://www.linkedin.com/in/piyugupuc/">Linkedin</a></li>
+                <a href="https://www.linkedin.com/in/piyugupuc/" target="_blank">Linkedin</a></li>
             <li>
-                <a href="https://twitter.com/piyushgpt0016">Twitter</a></li>
+                <a href="https://twitter.com/piyushgpt0016" target="_blank">Twitter</a></li>
         </ul>
+
+        <button><a href="#header-logo"> Go to Top </a></button>
     </footer>
+
 
 </body>
 
